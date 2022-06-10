@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="/apples/assets/grocery_crud/css/custom.css">
 </head>
 <body>
 <div id="home-container">

@@ -6,15 +6,15 @@
 		h1, h2 { text-align: center; font-family: Calibri; }
 		table.mytable {border-collapse: collapse;}
 		table.mytable td, th {border: 1px solid grey; padding: 5px 15px 2px 7px;}
-		th {background-color: #f2e4d5;}		
+		th {background-color: #f2e4d5;}	
 	</style>
+	
 </head>
 <body>
 
 <h1>Queries</h1>
 <div align='center'>
-	<button type="submit" onclick="location.href='<?php echo site_url('main/query1')?>'">Total customer orders</button>
-	<button type="submit" onclick="location.href='<?php echo site_url('main/query2')?>'">Ranked items by sales</button>
+	<button type="submit" onclick="location.href='<?php echo site_url('main/query1')?>'">Query</button>
 </div>
 <h2>Total Customer Orders</h2>
 <div align='center'>
@@ -23,7 +23,7 @@
 	$this->table->set_template($tmpl); 
 	
 	$this->db->query('drop table if exists temp');
-	$this->db->query('create temporary table temp as (select orders.custID, custName, COUNT(invoiceNo) AS TotalOrders from orders, customers where orders.custID = customers.custID group by orders.custID)');
+	$this->db->query('create temporary table temp as (select v.name AS Fruit_Name, SUM(t.retailPrice) AS Total_Price from tree t JOIN applevariety v ON v.idvariety = t.variety group by v.name order by Total_Price DESC)');
 	$query = $this->db->query('select * from temp;');
 	echo $this->table->generate($query);
 ?>

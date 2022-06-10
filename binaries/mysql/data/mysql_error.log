@@ -1899,3 +1899,143 @@ Version: '5.6.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2022-06-10 08:11:57 12152 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
 2022-06-10 08:11:57 12152 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
 2022-06-10 08:11:57 12152 [Note] Server socket created on IP: '127.0.0.1'.
+2022-06-10 13:44:17 5688 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-10 13:44:17 5688 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-06-10 13:44:17 5688 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-10 13:44:17 5688 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-06-10 13:44:17 5688 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-10 13:44:17 5688 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2022-06-10 13:44:17 5688 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-10 13:44:17 5688 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-10 13:44:18 5688 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-06-10 13:44:18 5688 [Note] InnoDB: Waiting for purge to start
+2022-06-10 13:44:18 5688 [Note] InnoDB: 5.6.15 started; log sequence number 3930900
+2022-06-10 13:44:18 5688 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-06-10 13:44:18 5688 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-06-10 13:44:18 5688 [Note] Server socket created on IP: '127.0.0.1'.
+2022-06-10 14:14:24 7560 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-10 14:14:24 7560 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-06-10 14:14:24 7560 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-10 14:14:24 7560 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-06-10 14:14:24 7560 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-10 14:14:24 7560 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2022-06-10 14:14:24 7560 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-10 14:14:24 7560 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-10 14:14:24 7560 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-06-10 14:14:24 7560 [Note] InnoDB: Waiting for purge to start
+2022-06-10 14:14:24 7560 [Note] InnoDB: 5.6.15 started; log sequence number 4104947
+2022-06-10 14:14:24 7560 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-06-10 14:14:24 7560 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-06-10 14:14:24 7560 [Note] Server socket created on IP: '127.0.0.1'.
+2022-06-10 14:16:08 2620 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-10 14:16:08 2620 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-06-10 14:16:08 2620 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-10 14:16:08 2620 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-06-10 14:16:08 2620 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-10 14:16:08 2620 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2022-06-10 14:16:08 2620 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-10 14:16:08 2620 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-10 14:16:08 2620 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-06-10 14:16:08 2620 [Note] InnoDB: Waiting for purge to start
+2022-06-10 14:16:08 2620 [Note] InnoDB: 5.6.15 started; log sequence number 4104957
+2022-06-10 14:16:08 2620 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-06-10 14:16:08 2620 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-06-10 14:16:08 2620 [Note] Server socket created on IP: '127.0.0.1'.
+2022-06-10 14:38:57 7752 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-10 14:38:57 7752 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-06-10 14:38:57 7752 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-10 14:38:57 7752 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-06-10 14:38:57 7752 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-10 14:38:57 7752 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2022-06-10 14:38:57 7752 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-10 14:38:57 7752 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-10 14:38:57 7752 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-06-10 14:38:57 7752 [Note] InnoDB: Waiting for purge to start
+2022-06-10 14:38:58 7752 [Note] InnoDB: 5.6.15 started; log sequence number 4104967
+2022-06-10 14:38:58 7752 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-06-10 14:38:58 7752 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-06-10 14:38:58 7752 [Note] Server socket created on IP: '127.0.0.1'.
+2022-06-10 14:52:34 6640 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-10 14:52:34 6640 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-06-10 14:52:34 6640 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-10 14:52:34 6640 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-06-10 14:52:34 6640 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-10 14:52:34 6640 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2022-06-10 14:52:34 6640 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-10 14:52:34 6640 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-10 14:52:35 6640 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-06-10 14:52:35 6640 [Note] InnoDB: Waiting for purge to start
+2022-06-10 14:52:35 6640 [Note] InnoDB: 5.6.15 started; log sequence number 4105167
+2022-06-10 14:52:35 6640 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-06-10 14:52:35 6640 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-06-10 14:52:35 6640 [Note] Server socket created on IP: '127.0.0.1'.
+2022-06-10 15:23:19 12244 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-10 15:23:19 12244 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-06-10 15:23:19 12244 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-10 15:23:19 12244 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-06-10 15:23:19 12244 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-10 15:23:19 12244 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2022-06-10 15:23:19 12244 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-10 15:23:19 12244 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-10 15:23:19 12244 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-06-10 15:23:19 12244 [Note] InnoDB: Waiting for purge to start
+2022-06-10 15:23:19 12244 [Note] InnoDB: 5.6.15 started; log sequence number 4105363
+2022-06-10 15:23:19 12244 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-06-10 15:23:19 12244 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-06-10 15:23:19 12244 [Note] Server socket created on IP: '127.0.0.1'.
+2022-06-10 15:37:38 15916 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-10 15:37:38 15916 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-06-10 15:37:38 15916 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-10 15:37:38 15916 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-06-10 15:37:38 15916 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-10 15:37:38 15916 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2022-06-10 15:37:38 15916 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-10 15:37:38 15916 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-10 15:37:38 15916 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-06-10 15:37:38 15916 [Note] InnoDB: Waiting for purge to start
+2022-06-10 15:37:38 15916 [Note] InnoDB: 5.6.15 started; log sequence number 4105413
+2022-06-10 15:37:39 15916 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-06-10 15:37:39 15916 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-06-10 15:37:39 15916 [Note] Server socket created on IP: '127.0.0.1'.
+2022-06-10 15:37:55 27064 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-10 15:37:55 27064 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-06-10 15:37:55 27064 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-10 15:37:55 27064 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-06-10 15:37:55 27064 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-10 15:37:55 27064 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2022-06-10 15:37:55 27064 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-10 15:37:55 27064 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-10 15:37:55 27064 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-06-10 15:37:55 27064 [Note] InnoDB: Waiting for purge to start
+2022-06-10 15:37:55 27064 [Note] InnoDB: 5.6.15 started; log sequence number 4105423
+2022-06-10 15:37:55 27064 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-06-10 15:37:55 27064 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-06-10 15:37:55 27064 [Note] Server socket created on IP: '127.0.0.1'.
+2022-06-10 15:39:53 20188 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-10 15:39:53 20188 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-06-10 15:39:53 20188 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-10 15:39:53 20188 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-06-10 15:39:53 20188 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-10 15:39:53 20188 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2022-06-10 15:39:53 20188 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-10 15:39:53 20188 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-10 15:39:54 20188 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-06-10 15:39:54 20188 [Note] InnoDB: Waiting for purge to start
+2022-06-10 15:39:54 20188 [Note] InnoDB: 5.6.15 started; log sequence number 4105453
+2022-06-10 15:39:54 20188 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-06-10 15:39:54 20188 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-06-10 15:39:54 20188 [Note] Server socket created on IP: '127.0.0.1'.
+2022-06-10 15:46:50 19320 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-10 15:46:50 19320 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-06-10 15:46:50 19320 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-10 15:46:50 19320 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-06-10 15:46:50 19320 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-10 15:46:50 19320 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2022-06-10 15:46:50 19320 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-10 15:46:50 19320 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-10 15:46:51 19320 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-06-10 15:46:51 19320 [Note] InnoDB: Waiting for purge to start
+2022-06-10 15:46:51 19320 [Note] InnoDB: 5.6.15 started; log sequence number 4105473
+2022-06-10 15:46:51 19320 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-06-10 15:46:51 19320 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-06-10 15:46:51 19320 [Note] Server socket created on IP: '127.0.0.1'.

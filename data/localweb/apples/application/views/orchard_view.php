@@ -4,6 +4,7 @@
 	<meta charset="utf-8" />
 	<style>
 		h1 { text-align: center; 	font-family: Calibri; }
+		
 	</style>
 <?php 
 foreach($css_files as $file): ?>
@@ -15,9 +16,7 @@ foreach($css_files as $file): ?>
 </head>
 <body>
 
-<h1>Orchard</h1>
-    <div>
-		<?php echo $output; ?>
-    </div>
+	<h1>Orchard</h1>
+	<?php echo $output; ?>
 </body>
 </html>

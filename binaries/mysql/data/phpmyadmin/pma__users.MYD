@@ -1,0 +1,9 @@
+2022-06-10 15:37:34 12244 [Note] C:\Users\Chukwudi\Desktop\HERTS-~1\binaries\mysql\bin\eds-mysqld.exe: Normal shutdown
+
+2022-06-10 15:37:34 12244 [Note] Giving 4 client threads a chance to die gracefully
+2022-06-10 15:37:34 12244 [Note] Event Scheduler: Purging the queue. 0 events
+2022-06-10 15:37:34 12244 [Note] Shutting down slave threads
+2022-06-10 15:37:36 12244 [Note] Forcefully disconnecting 4 remaining clients
+2022-06-10 15:37:36 12244 [Warning] C:\Users\Chukwudi\Desktop\HERTS-~1\binaries\mysql\bin\eds-mysqld.exe: Forcing close of thread 19  user: 'root'
+
+2022-06-10 15:37:36 12244 [Note] Binlog end

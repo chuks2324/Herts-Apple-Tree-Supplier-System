@@ -40,9 +40,7 @@ class Main extends CI_Controller {
 		// ('this fk column','referencing table', 'column in referencing table')
 		$crud->set_relation('variety','applevariety','idvariety');
 		
-		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
-		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
-		//$crud->set_relation_n_n('items', 'order_items', 'items', 'invoice_no', 'item_id', 'itemDesc');
+		
 		
 		//form validation (could match database columns set to "not null")
 		$crud->required_fields('idTree', 'variety', 'retailPrice');
@@ -62,27 +60,37 @@ class Main extends CI_Controller {
 		$this->load->view('tree_view.php', $output);
 	}
 
-	public function items()
+	public function variety()
 	{	
 		$this->load->view('header');
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
 		
-		$crud->set_table('items');
-		$crud->set_subject('item');
-		$crud->columns('itemID', 'itemDesc', 'orders');
-		$crud->fields('itemDesc', 'orders');
-		$crud->required_fields('itemID', 'itemDesc');
-		$crud->set_relation_n_n('orders', 'order_items', 'orders', 'item_id', 'invoice_no', 'invoiceNo');
-		$crud->display_as('itemDesc', 'Description');
+		$crud->set_table('applevariety');
+		$crud->set_subject('Variety');
+		$crud->columns('idvariety', 'name', 'colour_idcolour', 'crop_idcrop', 'season_idseason', 'size_idSize');
+		$crud->fields('idvariety', 'name', 'colour_idcolour', 'crop_idcrop', 'season_idseason', 'size_idSize');
+		$crud->required_fields('idvariety', 'name', 'colour_idcolour', 'crop_idcrop', 'season_idseason', 'size_idSize');
+		$crud->set_relation('crop_idcrop', 'crop', 'cropName');
+		$crud->set_relation('size_idSize', 'size', 'size');
+		$crud->set_relation('colour_idcolour', 'colour', 'name');
+		$crud->set_relation('season_idseason', 'season', 'season');
+		//$crud->set_relation_n_n('orders', 'order_items', 'orders', 'item_id', 'invoice_no', 'invoiceNo');
+		$crud->display_as('idvariety', 'VarietyID');
+		$crud->display_as('name', 'Variety');
+		$crud->display_as('colour_idcolour', 'Fruit_colour');
+		$crud->display_as('crop_idcrop', 'Crop');
+		$crud->display_as('season_idseason', 'Season');
+		$crud->display_as('size_idSize', 'Size');
+		
 		
 		$output = $crud->render();
-		$this->items_output($output);
+		$this->variety_output($output);
 	}
 	
-	function items_output($output = null)
+	function variety_output($output = null)
 	{
-		$this->load->view('items_view.php', $output);
+		$this->load->view('variety_view.php', $output);
 	}
 
 	public function orchard()
@@ -92,10 +100,10 @@ class Main extends CI_Controller {
 		$crud->set_theme('datatables');
 		$crud->set_table('orchard');
 		$crud->set_subject('orchard');
-		$crud->fields('orchardID', 'Location');
-		$crud->required_fields('orchardID', 'Location');
-		//$crud->display_as('custID', 'CustomerID');
-		//$crud->display_as('custName', 'Name');
+		$crud->fields('idOrchard', 'Location');
+		$crud->required_fields('idOrchard', 'Location');
+		$crud->display_as('idOrchard', 'OrchardID');
+
 		
 		
 		$output = $crud->render();
@@ -106,32 +114,38 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('orchard_view.php', $output);
 	}
+
 	
-	public function orderline()
+	public function treesplanted()
 	{	
 		$this->load->view('header');
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
-		$crud->set_table('order_items');
-		$crud->set_subject('order line');
-		$crud->fields('invoice_no', 'item_id', 'itemQty', 'itemPrice');
-		$crud->set_relation('invoice_no','orders','invoiceNo');
+		$crud->set_table('treesplanted');
+		$crud->set_subject('Planted_Info');
+		$crud->columns('Name', 'orchard_idOrchard', 'date');
+		$crud->fields('orchard_idOrchard', 'tree_idTree', 'date');
+		$crud->set_relation('orchard_idOrchard','orchard','{Location} ({idOrchard})');
+		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
+		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
+		$crud->set_relation_n_n('Name', 'tree', 'applevariety', 'idTree', 'variety', '{tree_idTree} - {name}');
+
 		//have multiple columns show in one FK column by concatenation:  www.grocerycrud.com/forums/topic/479-concatenate-two-or-more-fields-into-one-field/
-		$crud->set_relation('item_id','items','{itemID} - {itemDesc}');
-		$crud->required_fields('invoice_no', 'item_id', 'itemQty', 'itemPrice');
-		$crud->display_as('invoice_no', 'InvoiceNo');
-		$crud->display_as('item_id', 'ItemID');
-		$crud->display_as('itemQty', 'Quantity');
-		$crud->display_as('itemPrice', 'Price');
+		$crud->set_relation('tree_idTree','tree','{idTree} - {variety}');
+		$crud->required_fields('orchard_idOrchard', 'tree_idTree', 'date');
+		$crud->display_as('orchard_idOrchard', 'Orchard');
+		$crud->display_as('tree_idTree', 'TreeID');
+		$crud->display_as('date', 'Date');
 		
 		$output = $crud->render();
-		$this->orderline_output($output);
+		$this->treesplanted_output($output);
 	}
 	
-	function orderline_output($output = null)
+	function treesplanted_output($output = null)
 	{
-		$this->load->view('orderline_view.php', $output);
+		$this->load->view('treesplanted_view.php', $output);
 	}
+	
 	
 	public function querynav()
 	{	
@@ -145,15 +159,9 @@ class Main extends CI_Controller {
 		$this->load->view('query1_view');
 	}
 	
-	public function query2()
+	public function help()
 	{	
 		$this->load->view('header');
-		$this->load->view('query2_view');
-	}
-	
-	public function blank()
-	{	
-		$this->load->view('header');
-		$this->load->view('blank_view');
+		$this->load->view('help.php');
 	}
 }
