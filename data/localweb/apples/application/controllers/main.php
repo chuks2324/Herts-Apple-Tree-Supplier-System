@@ -38,7 +38,7 @@ class Main extends CI_Controller {
 		
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
-		$crud->set_relation('variety','applevariety','idvariety');
+		$crud->set_relation('variety','applevariety','name');
 		
 		
 		

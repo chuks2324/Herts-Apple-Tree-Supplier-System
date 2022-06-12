@@ -87,16 +87,7 @@
   }
 }
 /* custom css*/
-#top {
-  text-align: center;
-  padding: 20px;
-}
 
-#logo {
-  height: 80px;
-  width: 80px;
-  float: left;
-}
 
 #home-container {
   width: 100vw;
