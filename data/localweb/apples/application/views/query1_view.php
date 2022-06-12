@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<style>
-		h1, h2 { text-align: center; font-family: Calibri; }
+		h1, h2 { text-align: center;}
 		table.mytable {border-collapse: collapse;}
 		table.mytable td, th {border: 1px solid grey; padding: 5px 15px 2px 7px;}
 		th {background-color: #f2e4d5;}	

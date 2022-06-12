@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<style>
-		h1 {text-align: center; font-family: Calibri;}
+		h1 {text-align: center}
 	</style>
 </head>
 <body>
@@ -13,6 +13,7 @@
 	<button type="submit" onclick="location.href='<?php echo site_url('main/query1')?>'">Query</button>
 	
 </div>
+
     
 </body>
 </html>

@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8" />
 	<style>
-		h1 { text-align: center; 	font-family: Calibri; }
+		.page-title{ text-align: center;
+		color: red;}
 	</style>
 <?php 
 foreach($css_files as $file): ?>
@@ -15,9 +16,15 @@ foreach($css_files as $file): ?>
 </head>
 <body>
 
-<h1>Items</h1>
-    <div>
-		<?php echo $output; ?>
+<h2 class="page-title" >Variety</h2>
+    <div class="container-md">
+		<div class= "row justify-content-md-center">
+			<div class= "col-10" >
+				<?php echo $output; ?>
+			</div>
+			
+		</div>
+		
     </div>
 </body>
 </html>

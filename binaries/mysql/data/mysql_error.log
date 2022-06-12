@@ -2039,3 +2039,27 @@ Version: '5.6.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2022-06-10 15:46:51 19320 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
 2022-06-10 15:46:51 19320 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
 2022-06-10 15:46:51 19320 [Note] Server socket created on IP: '127.0.0.1'.
+2022-06-12 00:06:37 5196 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-12 00:06:37 5196 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-06-12 00:06:37 5196 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-12 00:06:37 5196 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-06-12 00:06:37 5196 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-12 00:06:37 5196 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2022-06-12 00:06:37 5196 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-12 00:06:37 5196 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-12 00:06:37 5196 [Note] InnoDB: The log sequence numbers 4105473 and 4105473 in ibdata files do not match the log sequence number 4210510 in the ib_logfiles!
+2022-06-12 00:06:37 5196 [Note] InnoDB: Database was not shutdown normally!
+2022-06-12 00:06:37 5196 [Note] InnoDB: Starting crash recovery.
+2022-06-12 00:06:37 5196 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2022-06-12 00:06:37 5196 [Note] InnoDB: Restoring possible half-written data pages 
+2022-06-12 00:06:37 5196 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 11028, file name mysql-bin.000060
+2022-06-12 00:06:37 5196 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-06-12 00:06:37 5196 [Note] InnoDB: Waiting for purge to start
+2022-06-12 00:06:37 5196 [Note] InnoDB: 5.6.15 started; log sequence number 4210510
+2022-06-12 00:06:37 5196 [Note] Recovering after a crash using mysql-bin
+2022-06-12 00:06:37 5196 [Note] Starting crash recovery...
+2022-06-12 00:06:37 5196 [Note] Crash recovery finished.
+2022-06-12 00:06:37 5196 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2022-06-12 00:06:37 5196 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2022-06-12 00:06:37 5196 [Note] Server socket created on IP: '127.0.0.1'.

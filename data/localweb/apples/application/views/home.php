@@ -3,9 +3,10 @@
 <head>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="/apples/assets/grocery_crud/css/custom.css">
+
 </head>
 <body>
-<div id="home-container">
+<div id="container main-content">
 	<p> Click links to access system</p>
 </div>
 </body>

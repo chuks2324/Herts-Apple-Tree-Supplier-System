@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<style>
-		h1 { text-align: center; 	font-family: Calibri; }
+		h1 { text-align: center;}
 	</style>
 <?php 
 foreach($css_files as $file): ?>
@@ -16,8 +16,14 @@ foreach($css_files as $file): ?>
 <body>
 
 <h1>Planting Information</h1>
-    <div>
-		<?php echo $output; ?>
+    <div class="container-md">
+		<div class= "row justify-content-md-center">
+			<div class= "col-7" >
+				<?php echo $output; ?>
+			</div>
+			
+		</div>
+		
     </div>
 </body>
 </html>

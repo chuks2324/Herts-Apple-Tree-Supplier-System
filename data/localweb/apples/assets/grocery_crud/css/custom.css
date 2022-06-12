@@ -87,25 +87,15 @@
   }
 }
 /* custom css*/
-#top {
-  text-align: center;
-  padding: 20px;
-}
 
 #logo {
-  height: 80px;
-  width: 80px;
+  height: 1em;
+  width: 1em;
+  margin-left: 1em;
   float: left;
+
 }
 
-#home-container {
-  width: 100vw;
-  height:75vw;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(7, 7, 7, 0.3)), url("orders/assets/grocery_crud/css/ui/simple/images/applepicking.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 /*--------------------*/
 

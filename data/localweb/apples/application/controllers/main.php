@@ -34,7 +34,7 @@ class Main extends CI_Controller {
 	
 		//the fields function lists attributes to see on add/edit forms.
 		//Note no inclusion of invoiceNo as this is auto-incrementing
-		$crud->fields('idTree', 'variety', 'retailPrice');
+		$crud->fields('variety', 'retailPrice');
 		
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
