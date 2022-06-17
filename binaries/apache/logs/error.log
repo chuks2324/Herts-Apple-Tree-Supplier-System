@@ -596,3 +596,6 @@
 [Sun Jun 12 23:42:29.167483 2022] [core:error] [pid 20100:tid 1176] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:63929] AH00127: Cannot map GET /apples/... HTTP/1.1 to file, referer: http://127.0.0.1:8080/apples/index.php
 [Sun Jun 12 23:42:29.181447 2022] [core:error] [pid 20100:tid 1176] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:63929] AH00127: Cannot map GET /apples/... HTTP/1.1 to file, referer: http://127.0.0.1:8080/apples/index.php
 [Sun Jun 12 23:51:52.351448 2022] [core:error] [pid 20100:tid 1140] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:64014] AH00127: Cannot map GET /apples/... HTTP/1.1 to file, referer: http://127.0.0.1:8080/apples/index.php
+[Mon Jun 13 02:40:43.592378 2022] [mpm_winnt:notice] [pid 17540:tid 496] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 13 02:40:45.639789 2022] [mpm_winnt:notice] [pid 20100:tid 724] AH00364: Child: All worker threads have exited.
+[Mon Jun 13 02:40:45.811581 2022] [mpm_winnt:notice] [pid 17540:tid 496] AH00430: Parent: Child process 20100 exited successfully.
